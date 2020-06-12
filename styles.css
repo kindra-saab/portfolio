@@ -147,12 +147,13 @@ body{
 }
 .cola{
     padding:3% 2%;
+    margin-bottom: 40px;
 }
 
-.arrow{
+/* .arrow{
     position: relative;
     left:120px;
-}
+} */
 
 /* -----------------------------Media Queries---------------------------------------- */
 
@@ -206,4 +207,40 @@ body{
 .copyright{
     padding-top: 50px;
     padding-bottom: 0;
+}
+
+@media (max-width:500px)
+{
+    .Main-heading{
+        font-size: 2rem;
+    }
+}
+@media (max-width:500px)
+{
+    .testimonial-text{
+        font-size: 1.75rem;
+        padding-top: 40px;
+    }
+}
+@media (max-width:500px)
+{
+    .press-images
+    {
+        width:13%;
+    }
+}
+
+@media (max-width:500px)
+{
+    .iconf
+    {
+        width:10px;
+    }
+}
+@media (max-width:500px)
+{
+    .h2p
+    {
+        font-size: 1.5rem;
+    }
 }
