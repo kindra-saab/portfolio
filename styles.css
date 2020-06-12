@@ -1,0 +1,207 @@
+html{
+    scroll-behavior:smooth;
+}
+body{
+    font-family: "Montserrat";
+    text-align: center;
+}
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* SECTION-COLOURS */
+.coloured-section
+{
+    background-color: #ef8172;
+    color:whitesmoke;
+}
+.white-section
+{
+    background-color: #fff;
+}
+
+/* header section */
+#title{
+    position: relative;
+    text-align: left;
+}
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+.Main-heading.name:hover{
+    color:#900c3f;
+}
+.Main-heading{
+    line-height: 1.5; 
+    font-size: 3.5em;
+}
+.fas{
+    color: azure;
+}
+
+/* navbar */
+
+.navbar-brand{
+    font-size:2rem;
+    
+}
+.navbar{
+    padding: 0 0 4.5rem 0;
+}
+.nav-item{
+    padding: 0px 18px;
+}
+.nav-link{
+    font-size: 1.5rem;
+    /* font-family: "Montserrat-Light"; */
+}
+
+.btn{
+    margin:5% 4% 0 0;
+}
+
+.but{
+    padding-bottom: 10%;
+}
+
+.phone-image{
+    width: 100%;
+    right:30%;
+}
+
+
+/* fetaure section  */
+#features{
+    position:relative;
+    z-index: 1;
+}
+
+
+.features-heading{
+    font-family: 'Montserrat';
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 5%;
+}
+.hashtag{
+    color: #e58172;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+.f{
+    padding: 5% 0 5% 0;
+}
+.fp{
+    padding: 0 18% 0 18%;
+    color: #8f8f8f;
+}
+
+/* testimonial section */
+
+/* #testimonials
+{
+    /* padding: 7% 15%;      giving this thing to carousel item class */ 
+    /* text-align: center; */
+    /* background-color: #ef8172; */
+    /* color: aliceblue; */
+/* } */ 
+
+.h2{
+ 
+    line-height: 1.5;
+    font-size: 3rem;
+}
+.testimonial-image{
+    width:20%;
+    border-radius: 100%;
+    margin:3%;
+}
+#press
+{
+
+    padding-bottom: 3%;
+}
+.press-images{
+    width: 15%;
+    margin: 20px 20px 50px ;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.h2p{
+    font-family: 'Montserrat';
+    line-height: 1.5;
+    font-size: 3rem;
+}
+
+ #pricing{
+    padding:5%;
+}
+.cola{
+    padding:3% 2%;
+}
+
+.arrow{
+    position: relative;
+    left:120px;
+}
+
+/* -----------------------------Media Queries---------------------------------------- */
+
+@media (max-width:1024px)
+{
+    #title{
+        text-align:left;
+    }
+    /* .phone-image{
+        position:static;
+        transform: rotate(0);
+    } */
+}
+
+.btn-ct{
+    margin-right: 2%;
+}
+#footer{
+    /* text-align: center; */
+    color: gray;
+}
+.iconf{
+    color: gray;
+    margin-right: 2%;
+}
+
+
+.portfolio
+{
+    width:100%;
+}
+.form-control
+{
+    text-align: center;
+}
+.form-style
+{
+    color: #ef8172;
+    font-size: 1.5rem;;
+}
+.iconf{
+    color: #ef8172;
+}
+.iconf:hover
+{
+    color: #ff4c68;
+}
+.last{
+    padding-top: 50px;
+}
+.copyright{
+    padding-top: 50px;
+    padding-bottom: 0;
+}
